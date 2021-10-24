@@ -1,0 +1,224 @@
+:root{
+    --default-green: #1db954;
+    --light-green:#1ed760;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVEGAÇÃO */
+#navbar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 1);
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#navbar .navbar-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+#navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+#navbar .navbar-container ul li{
+    padding: 0 20px;
+    color: white;
+    letter-spacing: 1px;
+    transition: all 300ms ease;
+
+}
+
+#navbar .navbar-container ul li:hover{
+    color: var(--default-green);
+    cursor: pointer;
+}
+
+#navbar .navbar-container ul li:nth-child(4) {
+    border-left: 1px solid white;
+
+}
+
+/* PAPEL DE PAREDE */
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("img/showcase.webp") center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+
+}
+
+#showcase .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#showcase .showcase-container h2 {
+    text-align: center;
+    font-size: 9.5rem;
+    max-width: 1000px;
+    color: rgba(0, 500, 0, 1);
+    letter-spacing: -9px;
+
+}
+
+#showcase .showcase-container p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: rgba(0, 500, 0, 1);
+}
+
+/* BOTÃO */
+
+.btn-primary {
+    background: var(--light-green);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all 300ms ease;
+
+}
+
+.btn-primary:hover {
+    background: #1a9c47;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+#footer {
+    background: black;
+    color: white;
+    padding: 80px 0;
+}
+
+#footer .footer-content{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+#footer .footer-content .footer-menu{
+    margin: 0 60px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+    margin: 25px 0;
+    transition: all 300ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover{
+    color: var(--default-green);
+    cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+    display: flex;
+    list-style: none;   
+}
+
+.footer-info .footer-info-items .footer-info-item{
+    margin: 0 10px;
+    font-weight: bold;
+    color: #919496;
+    font-size: 0.75rem;
+    transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover{
+    color: var(--default-green);
+    cursor: pointer;
+}
+
+.footer-info .rights .country{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-info .rights .country p {
+    transition: all 300ms ease;
+}
+
+.footer-info .rights .country p:hover {
+    color: var(--default-green);
+    cursor: pointer;
+}
+
+.footer-info .rights .country .brazil-flag{
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+    /* SOCIAL MEDIA */
+    
+.socials{
+    display: flex;
+    position: absolute;
+    left: 71%;
+    top: 107%;
+        
+}
+    
+.socials i {
+    margin: 0 20px;
+    font-size: 1.7rem;
+    transition: all 300ms ease;
+}
+    
+.socials i:hover {
+    color: var(--default-green);
+    cursor: pointer;
+}
