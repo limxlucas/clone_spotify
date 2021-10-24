@@ -60,7 +60,7 @@ body{
 
 }
 
-/* PAPEL DE PAREDE */
+/* CONTEÚDO PRINCIPAL */
 #showcase{
     height: 100vh;
     display: flex;
@@ -86,6 +86,7 @@ body{
     max-width: 1000px;
     color: rgba(0, 500, 0, 1);
     letter-spacing: -9px;
+    padding-top: 20%;
 
 }
 
@@ -93,6 +94,9 @@ body{
     margin: 15px 0;
     font-size: 1.1rem;
     color: rgba(0, 500, 0, 1);
+    padding-top: 35px;
+    padding-bottom: 60px;
+    
 }
 
 /* BOTÃO */
