@@ -57,7 +57,11 @@ body{
 
 #navbar .navbar-container ul li:nth-child(4) {
     border-left: 1px solid white;
+}
 
+#entrar{
+    text-decoration: none;
+    color: inherit;
 }
 
 /* CONTEÚDO PRINCIPAL */

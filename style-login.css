@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* PRIMEIRO CONTAINER */
+
+.main-container{
+    text-align: center;
+    align-items: center;
+    margin-top: 26px;
+    margin-bottom: 25px;
+}
+.main-container img{
+    width: 200px;
+    height: auto;
+}
+
+#first-hr{
+    position: relative;
+    right: 125px;
+    bottom: 25px;
+    width: 210px;
+}
+
+#second-hr{
+    position: relative;
+    left: 125px;
+    bottom: 34px;
+    width: 215px;
+}
+
+h1{       /* Para continuar ... */
+    position: relative;
+    left: 20px;
+    font-size: 15px;
+}
+
+/* SEGUNDO CONTAINER */
+.container-btn{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 38%;
+    bottom: 20px;
+    border: none;
+    align-items: center;
+}
+
+button{       /* Separação dos botões */
+    margin-bottom: 10px;
+}
+
+.btn{
+    border: none;
+    width: 470px;
+    height: 50px;
+    position: relative;
+    right: 25px;
+    border-radius: 500px;
+}
+
+.container-btn img{
+    width: 15px;
+    height: auto;
+    position: relative;
+    border: none;
+    border-radius: 500px;
+    right: 20px;
+}  
+
+#facebook{
+    background: #3b5998;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 300ms ease;
+}
+
+#facebook:hover{
+    background: #4b77cf;
+    cursor: pointer;
+}
+
+#apple{
+    background: black;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 300ms ease;
+}
+
+#apple:hover{
+    background: rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+#google{
+    background: white;
+    font-size: 15px;
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 2px solid rgb(131, 131, 131);
+    transition: all 300ms ease;
+}
+
+#google:hover{
+    background: rgb(116, 116, 116);
+    cursor: pointer;
+    color: white;
+}
+
+#telefone{
+    background: white;
+    font-size: 15px;
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 2px solid rgb(131, 131, 131);
+    transition: all 300ms ease;
+}
+
+#telefone:hover{
+    background: rgb(116, 116, 116);
+    cursor: pointer;
+    color: white;
+}
+
+/* TERCEIRO CONTAINER */
+
+.second-container{
+    width: 500px;
+    height: 350px;
+    border: none;
+    position: relative;
+    left: 38%;
+    bottom: 285px;
+}
+
+p{    /* OU */
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+h2{    /* Senha */
+    font-size: 15px;
+    position: relative;
+    left: 15px;
+}
+
+input{    /* Texto */
+    width: 470px;
+    height: 40px;
+}
+
+.textos {
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+h3{      /* Esqueceu sua senha */
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 15px;
+    transition: all 300ms ease;
+    color: grey;
+}
+
+h3:hover{
+    color: green;
+    cursor: pointer;
+}
+
+h4{       /* Lembrar de mim */
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+    color: grey;
+}
+
+#caixa{    /* 'checkbox' */
+    width: 20px;
+    height: 20px;
+    border-radius: 500px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#login{    /* 'BOTÃO DE LOGIN' */
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 390px;
+    bottom: 90px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 500px;
+    transition: all 300ms ease;
+}
+
+#login:hover{
+    background: rgb(0, 177, 0);
+    cursor: pointer;
+}
+
+/* QUARTO CONTAINER */
+
+.third-container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: none;
+    left: 38%;
+    bottom: 340px;
+}
+
+h5{     /* Não tem uma conta ? */
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#inscricao{      /* INSCREVER-SE NO SPOTIFY */
+    left: 20px;
+    bottom: 15px;
+    background: white;
+    font-size: 15px;
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 2px solid rgb(131, 131, 131);
+    transition: all 300ms ease;
+}
+
+#inscricao:hover{
+    background: rgb(116, 116, 116);
+    cursor: pointer;
+    color: white;
+}

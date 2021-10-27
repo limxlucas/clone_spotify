@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="https://open.scdn.co/fonts/CircularSpUIv3T-Book.woff2" 
+    as="font" type="font/woff2" crossorigin="true"/><link rel="preload" href="https://open.scdn.co/fonts/CircularSpUIv3T-Black.woff2" 
+    as="font" type="font/woff2" crossorigin="true"/><link rel="preload" href="https://open.scdn.co/fonts/CircularSpUIv3T-Bold.woff2" 
+    as="font" type="font/woff2" crossorigin="true"/>
+    <link href="style-login.css" rel="stylesheet">
+    <title>Login - Spotify</title>
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <div class="main-container">
+        <img src="img/logo-black.png" alt="Logo Spotify">
+    </div>
+    <hr size="1" align="center">
+    <h1 class="main-container">Para continuar, faça login no Spotify.</h1>
+    
+    <!-- CONTAINER DOS BOTÕES -->
+
+    <div class="container-btn">
+        <ul>
+            <li>
+                <button class="btn" id="facebook"><img src="img/facebook.jpg">CONTINUAR COM O FACEBOOK</button>
+            </li>
+
+            <li>
+                <button class="btn" id="apple"><img src="img/Apple.png">CONTINUAR COM A APPLE</button>
+            </li>
+
+            <li>
+                <button class="btn" id="google"><img src="img/google.png">CONTINUAR COM O GOOGLE</button>
+            </li>
+
+            <li>
+            <button class="btn" id="telefone">CONTINUAR COM UM NÚMERO DE TELEFONE</button>
+        </li>
+
+        </ul>
+    </div>
+
+    <!-- CONTAINER DE LOGIN -->
+
+    <div class="second-container">
+        
+    <p>OU</p>
+ 
+    <hr id="first-hr" size="1" align="center">
+    <hr id="second-hr" size="1" align="center">
+
+     <h2>Endereço de e-mail ou nome de usuário</h2>
+ 
+     <label class="textos">
+         <input type="text" name="Email">
+     </label>
+     
+     <h2>Senha</h2>
+     
+     <label class="textos">
+         <input type="text" name="Senha">
+     </label>
+ 
+     <h3>Esqueceu sua senha?</a></h3>
+ 
+     <label>
+         <input type="checkbox" id="caixa">
+         <h4 id="lembre-se">Lembrar de mim</h4>
+     </label>
+
+     <button id="login">ENTRAR</button>
+
+    </div>
+
+    <!-- CONTAINER DE INSCRIÇÃO -->
+
+    <div class="third-container">
+        <h5>Não tem uma conta?</h5>
+        <button class="btn" id="inscricao">INSCREVER-SE NO SPOTIFY</button>
+    </div>
+
+</body>
+</html>
